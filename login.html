@@ -10,20 +10,24 @@
             font-family:Roboto;
         }
         body{
-            display: flex;
+             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            
-           
+            /* background-size: 100% 100%;
+            background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+            background-image: radial-gradient(18% 28% at 24% 50%, #CEFAFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #D3FF6D9C 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #6DFFAEF5 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+             */
+            background-image: linear-gradient(60deg,rgba(225, 122, 139, 0.441),#9175e0,#c086ec)
+            ,url(https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGlnaXRhbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+             background-size: cover;
         }
         .mycard{
-            background-color: c ;
-            border: 2px solid red;
-            width:25%;
+            background-color: white;
+            border: 2px solid grey;
             padding: 30px;
             border-radius: 10px;
-            box-shadow:  9px 10px rgba(230, 149, 73, 0.7) ;
+            box-shadow: 0px 0px 10px 2px gray ;
             /* x-offset y-offset blur size color */
         
     
@@ -34,6 +38,11 @@
             box-sizing: border-box;
             border-radius: 5px;
             margin-bottom: 20px;
+            border: 1px solid grey;
+            outline: none;
+        }
+        .myinput:focus{
+           background-color: #c086ec;
         }
         .form-title{
             font-family: roboto;
@@ -41,10 +50,17 @@
             text-align: center;
         }
         .mybtn{
+            margin-top: 10px;
             padding: 10px;
             justify-content: center;
             border-radius: 10px;
-            box-shadow:  5px 5px 4px rgba(230, 149, 73, 0.7) ;
+            box-shadow: 2px 2px 2px black;
+            transition-duration: 30ms;
+            outline: #740fc2;
+            width: 50%;
+        }.mybtn:hover{
+            background-color: aqua;
+            color: rgb(222, 143, 24);
            
         }
     </style>
