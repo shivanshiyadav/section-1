@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:regular,700" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" />
+    <style>
+        body{
+            margin: 0px;
+            text-decoration: none;
+            box-sizing: none;
+            background-image: url();
+
+        }
+        /* .nav{
+            background-color: white;
+            color:black;
+            margin: 10 10px;
+            padding: 10px;
+            height: 90px;
+            width: 100%;
+     
+        } */
+        
+        ul{
+          background-color: white;
+          color: black;
+          float: right;
+          
+       text-decoration: none;
+        font-weight: 500;
+        font-size: large;
+         display:flex;
+   margin: 0px;
+   height: 90px
+   
+        }
+      ul a:hover{
+          background-color: rgba(128, 128, 128, 0.396);
+          color: black;
+          padding: 18px;
+          
+        
+        }
+        
+        .logo{
+          color: rgb(0, 0, 0);
+          font-weight: 900;
+          font-size: 290%;
+          padding: 10px;
+          margin: 30px;
+        }
+        .btn1st{
+          /* height: 100px; */
+          background-color: red;
+          color: white;
+          /* margin-top: 340px; */
+          border: none;
+          padding: 10px;
+          font-weight: 600;
+          font-size: large;
+          border-radius: 19px;
+          font-family: Open Sans;
+          margin-bottom: 29px;
+        }
+        .btn {
+          display: flex;
+          justify-content: center;
+          height: 100px;
+          width: 200px;
+          background-color: red;
+          color: white;
+          margin-top: 340px;
+          border: none;
+          padding: 15px;
+          font-weight: 600;
+          font-size: large;
+          border-radius: 19px;
+          font-family: Open Sans;
+          
+        }
+        .main{
+         
+          height: 100px;
+          color: black;
+          margin:  340px  90px 0px 0px;
+          border: none;
+          padding: 16px;
+          border-radius: 19px;
+          font-weight: 600;
+          font-size: large;
+          border-radius: 19px;
+        }
+        .plate{
+          background-color: rgba(128, 128, 128, 0.174);
+          /* text-align: center; */
+          
+          display: flex;
+ font-family: Amatic SC;
+ height: 80vh;
+          
+        }
+        /* .img{
+          height: 500px;
+          float: right;
+        
+        } */
+        .h1{
+        border: 10x solid black;
+         padding: 20px;
+          /* border: none; */
+          font-weight: 300;
+          margin-top: 140px;
+          font-weight: bold;
+          /* text-align: left; */
+          
+          /* padding: 20px; */
+        }
+        .h3{
+          font-family: open sans;
+          font-weight: 300;
+          margin-top: 140px;
+        }
+        .about{
+          
+          text-align: center;
+          margin: 10px 10px;
+          padding: 20px;
+        }
+        .column{
+        display: grid;
+        /* grid-template-columns:200px 200px ; */
+        grid-template-columns: 1fr 1fr
+        ;
+        }
+        .img{ 
+          /* background-size: cover; */
+          width: 200px;
+          height: 100vh;
+
+        }
+       
+
+        .child{
+            border: none;
+            padding: 0px;
+            margin: 10px 10px;
+
+        }
+        .child{
+          /* text-align: center; */
+          font-size: x-large;
+          line-break: loose;
+          padding: 10px;
+          
+
+        }
+        .child p{
+          margin: 10px;
+        }
+        .parent{
+            display: grid;
+            grid-template-columns: 1fr 1fr; */
+            
+
+        }
+        .card{
+          background-color: rgba(173, 169, 169, 0.325);
+          margin: 10px;
+          display: flex;
+          flex-direction: row;
+          /* border: 2px solid black;
+          height: 100px;
+          width: 100px; */
+        }
+        .card i{
+          font-size: xx-large;
+          text-align: center;
+          padding: 10px 0px 0px 0px ;
+          color: red;
+          border: none;
+          border-radius: 50px;
+          width: 70px;
+          height: 50px;
+          text-align: center;
+          margin-left: 100px;
+          background-color: rgba(245, 197, 190, 0.837);
+        }
+        .card1{
+          border: 2px solid black;
+          height: 300px;
+          width: 400px;
+          padding: 20px;
+          background-color: red;
+          color: white;
+          margin: 15px;
+        }
+        .card1 button{
+          /* font-size: large;
+          font-weight: 600; */
+          border-radius: 20px;
+          margin-bottom: 20px;
+          margin-right: 20px;
+          padding: 10px;
+          background-color: rgba(241, 196, 196, 0.549);
+        
+        }
+        .card2{
+          border: 2px solid black;
+          height: 270px;
+          width: 300px;
+          padding: 20px;
+          margin: 15px;
+          /* font-size: x-large; */
+        }
+        .card3{
+          border: 2px solid black;
+          height: 270px;
+          width: 300px;
+          padding: 20px;
+          margin: 15px;
+        }
+        .card4{
+          border: 2px solid black;
+          height: 270px;
+          width: 300px;
+          padding: 20px;
+          margin: 15px;
+        }
+        /* .h3{
+          font-family: open sans;
+          font-weight: 300;
+          
+        } */
+.menu{
+  font-family: Amatic SC;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  color: rgba(105, 103, 103, 0.975);
+}
+.menu nav{
+  font-family: open sans;
+  /* font-family: Amatic SC; */
+  color: rgb(90, 88, 88);
+  text-decoration: none;
+  font-size: x-large;
+ 
+  
+}
+.starter{
+  font-family: open sans;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+  color: gray;
+}
+.dishes{
+ margin: 20px;
+ padding: 0px;
+  display: grid;
+  
+  grid-template-columns:1fr 1fr ;
+  background-color: rgba(172, 169, 166, 0.479);
+}
+.d1{
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.d2{
+  text-align: center;
+  padding: 10px;
+}
+.d3{
+  text-align: center;
+  padding: 10px;
+}
+.d4{
+  text-align: center;
+  padding: 10px;
+}
+.d5{
+  text-align: center;
+  padding: 10px;
+}
+.d6{
+  
+  text-align: center;
+  padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+  <div class="nav">
+   <div class="logo"><label > Yummy <span style="color: orangered;">.</span> </label>
+
+    <ul>
+      <a href="#">Home</a>
+     
+      <a href="">About</a>
+      <a href="">Menu</a>
+      <a href="">Event</a>
+      <a href="">Chefs</a>
+      <a href="">Gallery</a>
+      <a href="">Drop Down</a>
+      <a href="">Contact</a>
+      <button class=" btn1st">Book a Table</button>
+      <!-- <button class=" main 2"><i class="fa-regular fa-circle-play fa-spin"></i>Watch a video</button>
+      -->
+     </ul>
+  </div>
+
+  </div>
+    <div class="plate">
+      <h1 class="h1">Enjoy Your Healthy Delicious Food</h1> 
+  <h3 class="h3">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</h3>
+  <button class=" btn ">Book a Table</button>
+  <button class=" main 2"><i class="fa-regular fa-circle-play fa-spin"></i>Watch a video</button>
+ 
+      <img  src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/hero-img.png" alt="" srcset="">
+    </div> 
+   <div class="about">
+    <h3> ABOUT US</h3>
+    <h1>LEARN MORE ABOUT US</h1>
+   </div>
+   
+    <div class="parent">
+      <div class="child">
+      
+        <img style="height: 80vh; width: 100vh;" src="https://www.objektmoebel24.com/blog/wp-content/uploads/2021/01/Cafe-Einrichtung-Beispiel-1-768x1024.jpg" alt="">
+       
+      </div>
+      <div class="child">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      <ul>
+        <p ><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><i class="fa-solid fa-check-double"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+        <p><i class="fa-solid fa-check-double"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+      </ul>
+      <img style="height: 350px; width: 80vh; padding: 40px;" src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/about-2.jpg" alt="">
+     
+      </div>
+  
+      </div>
+      <div class="card">
+        <div class="card1">
+          <h1>why choose yummy?</h1>
+          <h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis
+          </h3>
+          <button>Learn more</button>
+        </div>
+        <div class="card2">
+          <i class="fa-solid fa-square-poll-horizontal"></i><h3>Corporis voluptates officia eiusmod</h3>
+        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+        </div>
+        <div class="card3">
+          <i class="fa-regular fa-gem"></i><h3>Ullamco laboris ladore pan</h3>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+        </div>
+        <div class="card4">
+          <i class="fa-solid fa-briefcase"></i><h3>Labore consequatur incidid dolore</h3>
+        <p> Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+      </div>
+      </div>
+      <div class="menu">
+       <div class="yum"> <h2>OUR MENU</h2>
+        <H1>CHECK OUR <span style="color: red;">YUMMHY MENU</span></H1></div>
+        <div class="menu nav"><nav>
+          <a href="#">Starter</a>
+          <a href="#">Breakfast</a>
+          <a href="#">Lunch</a>
+          <a href="#Dinner"></a>
+        </nav></div>
+      </div>
+      <div class="starter">
+        <h3>MENU</h3>
+        <h1 style="font-size: xx-large; font-weight: 600; color: red;">Starter</h1>
+      </div>
+      <div class="dishes">
+        <div class="d1">
+          <img style="height: 500px; width: 500px;" src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-1.png" alt="">
+        <h1>Magnam Tiste</h1>
+        <h3>Lorem, deren, trataro, filede, nerada</h3>
+      <h1 style="color: red;">$5.95</h1>
+    </div>
+        <div class="d2">
+          <img style="height: 500px; width: 500px;" src= "https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-3.png " alt="">
+       
+       <h1>Est Eligendi</h1>
+      <h3> Lorem ipsum dolor sit.</h3> 
+    <h1 style="color: red;">$8.95</h1></div>
+        <div class="d3">
+          <img style="height: 500px; width: 500px;" src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-4.png" alt="">
+        
+        <h1>Eos Luibusdam</h1>
+      <h3>Lorem, deren, trataro, filede, nerada</h3>
+    <h1 style="color: red;">$12.95</h1></div>
+        <div class="d4">
+          <img style="height: 500px; width: 500px;" style="height: 500px; width: 500px;" src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-5.png" alt="">
+        
+        <h1>Eos Luibusdam</h1>
+      <h3>Lorem, deren, trataro, filede, nerada</h3>
+    <h1 style="color: red;">$12.95</h1></div>
+        <div class="d5">
+          <img style="height: 500px; width: 500px;" src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-6.png" alt="">
+          <h1>Est Eligendi</h1>
+      <h3> Lorem ipsum dolor sit.</h3> 
+    <h1>$8.95</h1>
+        </div>
+        <div class="d6">
+          <img style="height: 500px; width: 500px;" src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/menu/menu-item-2.png" alt="">
+          <h1>Est Eligendi</h1>
+          <h3> Lorem ipsum dolor sit.</h3> 
+        <h1 style="color: red;">$8.95</h1>
+        </div>
+      </div>
+
+   </body>
+</html>
