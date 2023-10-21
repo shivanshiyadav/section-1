@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic" rel="stylesheet" /> <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+ 
+ <style>
+    body {
+       font-family: raleway;
+    margin: 0;
+    /* overflow: hidden; */
+    /* background: #000 url(../img/demo-bg.jpg) 0 0 repeat;
+    position: relative; */
+   }
+    #header{
+       
+        /* height: 50px;
+        width: 230vh; */
+        /* float: left; */
+        /* padding: 10px; */
+        background-color: #023b6d;
+        color: white;
+        font-size: x-large;
+       
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 32px;
+    background: #023b6d;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+
+    }
+    .current-template {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 450px;
+    font-size: large;
+    
+}
+#dwn{
+  font-size:small ;  
+  font-weight: 600;
+  background-color: rgb(38, 121, 237);
+  padding: 10px;
+  margin-left: 490px;
+
+}
+.preview{
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    padding-top: 30px;
+    /* margin: 20px; */
+   
+}
+
+   
+
+
+.preview h3{ 
+    padding-left: 40px;
+    font-size:390%;
+}
+nav{
+    
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 80px;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: gray;
+    font-size: 20px;
+    text-decoration: none;
+}
+.eno{
+    font-size: 60px;
+margin-left: 30px;
+}
+.btn-btn-main{
+    background-color:rgb(72, 145, 247);
+    color: white;
+    padding: 0px;
+    border-radius: 5px;
+    border: none;
+}
+#hero{
+   height: 100px;
+   float: right;
+   padding: 0px;
+    margin-top: -60px;
+    height: 70vh;
+    background: #fff;
+    
+
+}
+ 
+.btn{
+  border: none;
+}
+.btn-get-started{
+border: none;
+    margin-left: 40px;
+    background-color:#16df7e;
+    padding: 10px;
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: white;
+    
+   
+}
+.btn-get-started{
+   
+}
+.btn-watch-video{
+    border: none;
+    margin-left: 20px;
+    /* background-color:#16df7e; */
+
+    padding: 10px;
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 1px;
+    display: inline-block;
+    /* border-radius: 4px; */
+    transition: 0.5s;
+    color: #3e4450;
+}
+.btn-watch-video:hover{
+   color: #16df7e;
+}
+.parent{
+    margin-top: -50px;
+    margin:0px 0px 0px 220px ;
+    padding: 20px;
+    height: 300px;
+   width: 1100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    /* flex-direction: row; */
+    
+    color: #3e4450;
+   
+}
+.child1{
+    padding: 10px;
+    margin-right: 90px;
+    height: fit-content;
+    width: 13000px;
+    border: 1px solid #16df7e;
+    text-align: center;
+
+
+}
+.child2{
+    padding: 10px;
+    margin-right: 90px;
+    height: fit-content;
+    width: 13000px;
+    border: 1px solid #16df7e;
+    /* margin-top: 320px; */
+}
+.child3{
+    padding: 10px;
+    margin-right: 30px;
+    height: fit-content;
+    width: 13000px;
+    border: 1px solid #16df7e;
+    /* margin-top: 320px; */
+    /* margin-bottom:  120px; */
+}
+
+/* .parent i{
+    font-size: x-large;
+    text-align: center;
+} */
+
+  .child1:hover{
+    background-color: #8fcab6;
+    color: white;
+    font-weight: 800;
+  }
+  .child2:hover{
+    background-color: #8fcab6;
+    color: white;
+    font-weight: 800;
+  }
+  .child3:hover{
+    background-color: #8fcab6;
+    color: white;
+    font-weight: 800;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px;
+    
+  }
+  .grid h3{
+    
+    font-weight: 700;
+    font-size: 32px;
+    color: #5f687b;
+
+  }
+  .grid p{
+    font-style: italic!important;
+    margin: 0px;
+    margin-bottom: 1rem;
+
+  }
+  .grid li{
+  
+    font-size: 20px;
+    padding-right: 4px;
+    color: #16df7e;
+  }
+  .g1{
+    margin-left: 20px;
+    height: 500px;
+  }
+  .num{
+    display: flex;
+    flex-wrap: wrap;
+    color: #198754;
+    /* font-weight: 900; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    font-family:Open Sans ;
+}
+.n1{
+    
+    font-weight: bolder;
+    height: 100px;
+    width: 200px;
+    margin:  60px;
+    padding: 60px;
+}
+.n2{
+    
+    font-weight: 900;
+    height: 100px;
+    width: 200px;
+    margin:   60px;
+    padding:60px;
+}
+.n3{
+    
+    font-weight: 900;
+    height: 100px;
+    width: 200px;
+    margin: 60px;
+    padding: 60px;
+}
+.n4{
+    
+    font-weight: 900;
+    height: 100px;
+    width: 200px;
+    margin:  60px;
+    padding: 60px;
+}
+.num h4{
+    color: #3e4450;
+    font-size: larger;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+   color: #3e4450;
+   text-align: center;
+   margin-left: 120px;
+   /* background-color: #9495987a; */
+/* box-shadow:2px 12px 12px 12px #57595b; */
+}
+.p1{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 15px;
+}
+.p2{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 15px;
+}
+.p3{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 15px;
+}
+.p4{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 15px;
+}
+.p5{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 15px;
+}
+.p6{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 15px;
+}
+
+ </style>
+</head>
+<body>
+    <div id="header" class="fixed-top">
+        Bootstrap <span style="color: rgb(76, 126, 243);">Made</span>
+        <i class="fa-solid fa-tv "  style="color: #f6f7f9; padding: 10px;"></i>
+        <i class="fa-solid fa-mobile-screen p-2" style="color: #878787;"></i>
+        <i class="fa-solid fa-mobile-screen p-2" style="color: #878787;"></i>
+        <p class="current-template"> <  eNo  > </p>
+        <h4 id="dwn"><i class="fa-sharp fa-solid fa-download" style="color: #f7f9fd;"></i>FREE DOWNLOAD</h4>
+    </div>
+    <div class="preview">
+      
+      <nav>
+        <h3 class="eno" >eNo</h3>
+        <ul>
+            <li> <a href="#">  <span style="color: rgba(0, 128, 0, 0.653); font-weight: 500;">Home</span></a></li>
+            <li><a href="#"> About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#"> Team</a></li>
+            <li><a href="#">  <span style="color: rgba(0, 128, 0, 0.653); font-weight: 500;">Drop Down</span></a></li>
+            <li><a href="#"> Contact</a></li>
+            <button class="btn-btn-main p-2">Get Started</button>
+
+        </ul>
+       
+      </nav>
+    </div>
+    <div >
+        <img id="hero" src="hero-img.png" alt="">
+       
+        <h1 style="color: #3e4450; margin-left: 40px; padding-top: 120px;">Elegant and creative solutions</h1>
+        <h2 style="color: #858ea1; margin-left: 40px;">We are team of talented designers making websites with Bootstrap</h2>
+        <button  class="btn-get-started">
+           Get Started
+        </button>
+        <button class="btn-watch-video"><i class="fa-regular fa-circle-play" style="color: #57595b;"></i> watch video</button>
+ </div>
+
+ <div class="parent">
+    <div class="child1"><i class="fa-solid fa-tv " style="color: #36bf91; font-size: x-large ;"></i>
+        <h3>Lorem ipsum</h3>
+        <h6>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</h6>
+    </div>
+    <div class="child2"><i class="fa-brands fa-linkedin " style="color: #36bf91; padding-left: 90px;; font-size: x-large ;"></i>
+        <h3>Dolor Sitema</h3>
+        <h6>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</h6>
+    </div>
+    <div class="child3"><i class="fa-solid fa-book " style="color:  #36bf91;padding-left: 100px;; font-size: x-large ;"></i>
+        <h3>Sed ut perspiciatis</h3>
+        <h6>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</h6>
+    </div>
+ </div>
+ <div class="grid">
+    <div class="g1"><img src="about.png" alt=""></div>
+    <div class="g2"><h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis porro qui consequatur magnam velit ipsa ab! Quam facilis vero vitae.</p>
+        <ul>
+         <p> <i class="fa-regular fa-circle-check" style="color: #36ab8d;"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+        <p> <i class="fa-regular fa-circle-check" style="color: #36ab8d;"></i> Duis aute irure dolor in reprehenderit in voluptate velit</p>
+        <p> <i class="fa-regular fa-circle-check" style="color: #36ab8d;"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda</p>
+        
+        </ul>
+        <p >Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div> </div>
+    <div class="num">
+        <div class="n1">
+            <h1 style="font-weight: bolder; font-size:60px ;">232</h1>
+            <h4>Clients</h4>
+        </div>
+        <div class="n2">
+            <h1  style="font-weight: bolder; font-size:60px ;">232</h1>
+            <h4>Projecs</h4>
+        </div>
+        <div class="n3">
+            <h1  style="font-weight: bolder; font-size:60px ;">1463</h1>
+            <h4>Hours of Support</h4>
+        </div>
+        <div class="n4">
+            <h1  style="font-weight: bolder; font-size:60px ;">15</h1>
+            <h4>Hard Workers</h4>
+        </div>
+    </div>
+    <div class="services">
+        
+            <h1 style="text-align: center; color: #3e4450; font-size:240%; font-weight: bold; margin-top: 130px; text-shadow:  12px 1px 3px  #3e445070; ">SERVICES</h1>
+            <p style="text-align: center; color: #3e4450; ">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        
+    </div>
+    <div class="grid2">
+        <div class="p1"> <i class="fa-solid fa-tv "style="color: #36ab8d;  font-size: xx-large; font-weight: 900;"></i>
+            <h2 style="color: #36ab8d;">Lorem Ipsum</h2>
+        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+    
+        </div>
+        <div class="p2" > <i class="fa-regular fa-clock" style="color: #36ab8d; font-size: xx-large; font-weight: 900;"></i>
+            <h2 style="color: #36ab8d;">Sed ut perspiciatis</h2>
+        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+    
+        </div>
+        <div class="p3" > <i class="fa-solid fa-newspaper" style="color: #36ab8d; font-size: xx-large; font-weight: 900;"></i>
+            <h2 style="color: #36ab8d;">Magni Dolores</h2>
+        <p>Voluptatum deleniti atque c Lorem ipsum dolor sit amet.ori</p>
+    
+        </div>
+        <div class="p4" > <i class="fa-solid fa-earth-americas" style="color: #36ab8d;  font-size: xx-large; font-weight: 900;"></i>
+            <h2 style="color: #36ab8d;">Nemo Enim</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. corrupti quos dolores et quas molestias excepturi</p>
+    
+        </div>
+        <div class="p5" > <i class="fa-brands fa-square-youtube" style="color: #36ab8d; font-size: xx-large; font-weight: 900;"></i>
+            <h2 style="color: #36ab8d;">Dele cardo</h2>
+        <p> dolor sit amet consectetur. tque corrupti quos dolores et quas molestias excepturi</p>
+    
+        </div>
+        <div class="p6" > <i class="fa-solid fa-hotel " style="color: #36ab8d; font-size: xx-large; font-weight: 900;"></i>
+            <h2 style="color: #36ab8d;">Divera don</h2>
+        <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+    
+        </div>
+        
+        </div>
+        <h1  style="text-align: center; color: #3e4450; font-size:240%; font-weight: bold; margin-top: 130px; text-shadow:  12px 1px 3px  #3e445070; ">PORTFOLIO</h1>
+    <p  style="text-align: center; color: #3e4450; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, nisi</p>
+   <div class="grid3">
+    <div class="img1">
+        <img src="" alt="">
+    </div>
+   </div>
+</body>
+</html>
