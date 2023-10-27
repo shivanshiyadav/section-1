@@ -37,9 +37,13 @@ fruits.pop(); //remove last element
 console.log(fruits);
 
 
-fruits.splice( 2,4);
+fruits.splice( 2,4,'tomato','melon','berry');
 
 console.log(fruits);
+//also use in string
+//indexing[]
+//slicing-slice()
+//length-length
 
 
 
