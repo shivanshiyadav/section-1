@@ -20,6 +20,27 @@ console.log(fruits.slice(2,1000) );
 console.log(fruits.slice(2) )
 console.log(fruits.slice(1,-3) );
 
+// adding elements
+ fruits.push('banana')// add at the end of array
+ fruits.unshift('papaya');  //add at the begning of the array 
+
+ console.log(fruits)
+
+//  replacing elements
+fruits[2]="cherry"
+console.log(fruits);
+
+// resolving element
+fruits.pop(); //remove last element
+ fruits.shift(); //remove first element
+
+console.log(fruits);
+
+
+fruits.splice( 2,4);
+
+console.log(fruits);
+
 
 
 
