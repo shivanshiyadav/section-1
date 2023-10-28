@@ -7,6 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
+    body{
+        background-color: rgba(180, 180, 216, 0.242);
+    }
     nav ul{
        display:flex;
        justify-content: center;
@@ -27,43 +30,85 @@
     padding: 0px 15px;
 }
  li:hover{
-    background-color: rgba(126, 49, 197, 0.674);
-/* padding: 6px; */
-border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.388);
+padding: 6px;
+border-radius: 8px;
 margin:5px;
-/* transition: 8ms; */
+transition: 8ms;
 }
 .grid{
-    margin-left: 120px;
+    margin: 0px;
+    margin-left: 40px;
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
+    justify-content: space-between;
     
 /* justify-content: center; */
 }
 .child1{
-     
+    
     border: 1px solid black;
     border-radius: 10px;
-    margin: 12px;
-    padding: 10px;
-    width: 300px;
+    margin: 10px 30px 10px 0px;
+    padding: 20px;
+    width: 350px;
+    height: 200px;
 }
+/* .child1 hover:{
+    border: 1px solid black;
+    border-radius: 10px;
+} */
 img{
     border-radius: 50%;
     height: 100px;
+    width: 120px;
     float: left;
 }
-button{
+.button2{
     border-radius: 20px;
     border-color: rgba(0, 0, 255, 0.345);
+    /* float: right; */
+    background-color: white;
+   
+    color:rgba(38, 38, 220, 0.854); ;
+    
+}
+.button1{
+    padding: 8px;
+    border:1px solid ;
+    border-color: rgba(139, 139, 143, 0.61);
+    border-radius: none;
+    background-color: white;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 85vh;
+    border: none;
+    border: none;
+    border-radius: 10px;
+   
+  padding: 0px;
+    margin-top: 70px;
+    
+    margin-left: 150px;
+   
+}
+.header{
+    padding: 25px;
 }
   </style>  
 </head>
 <body>
 
-    <div class="p-3 m-5 ">
-        <h2 style="font-size:xx-large; font-weight: bold; "> User</h2>
+   <div class="card">
+    <div class="header ">
+        <h2 style="font-size:xx-large; font-weight: bold;padding-left : 30px; margin: 0px;; "> User</h2>
         <div>
             <button class="button1">
                 <i class="fa-solid fa-magnifying-glass"></i><label  class=" m-2">search</label>
@@ -84,43 +129,58 @@ button{
    <div class="grid">
 
         <div class="child1">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7VsM2z837FvNfwL9un60Q90LAHB-T_BZL1uXt9pNrhQ&s" alt="">
+            <img src="https://img.okezone.com/content/2016/08/10/194/1459710/trik-menggunakan-hijab-agar-terlihat-lebih-tinggi-BQSrqA74s4.jpg" alt="">
             <h3>Lelah Nichols</h3>
             <p>Troy.MI</p>
-            <button >clothes</button>
-            <button>stem</button>
+            <button class="button2">clothes</button>
+            <button class="button2">stem</button>
         </div>
         <div class="child1">
-            <h3>Lelah Nichols</h3>
-            <p>Troy.MI</p>
-            <button >clothes</button>
-            <button>stem</button>
+            <img src="https://i.pinimg.com/originals/3b/7e/95/3b7e9521ea7e68daca81584fc37c9fc8.jpg" alt="">
+            <h3>Jesus Weiss</h3>
+            <p>Goet Worth,TX</p>
+            <button class="button2">headset</button>
+            <button class="button2">gadget</button>
+            <button class="button2">speed</button>
+            <button class="button2">winter</button>
         </div>
         <div class="child1">
-            <h3>Lelah Nichols</h3>
-            <p>Troy.MI</p>
-            <button >clothes</button>
-            <button>stem</button>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/63fd4930-a5a7-4193-8899-4d98f8d8f640/d5u8v6i-26550a60-4879-4cd5-a134-2d01f38deb8a.jpg/v1/fill/w_800,h_533,q_75,strp/snowy_portrait_of_a_young_beauty_by_gestiefeltekatze_d5u8v6i-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTMzIiwicGF0aCI6IlwvZlwvNjNmZDQ5MzAtYTVhNy00MTkzLTg4OTktNGQ5OGY4ZDhmNjQwXC9kNXU4djZpLTI2NTUwYTYwLTQ4NzktNGNkNS1hMTM0LTJkMDFmMzhkZWI4YS5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.qOR2znijWCz21kn1iWoTLfcpkf2M--ZUBUKnMJvSbrs" alt="">
+            <h3>Annie Rice</h3>
+            <p>Austin,TX</p>
+            <button class="button2">road</button>
+            <button class="button2">mountain</button>
+            <button class="button2">trip</button>
+            <button class="button2">earth</button>
+            <button class="button2">nature</button>
+            
         </div>
         <div class="child1">
-            <h3>Lelah Nichols</h3>
-            <p>Troy.MI</p>
-            <button >clothes</button>
-            <button>stem</button>
+            <img src="" alt="">
+            <h3>Robet Brower</h3>
+            <p>Cincinnati,OH</p>
+            <button class="button2" >Maintenance</button>
+            <button class="button2">gear</button>
+            <button class="button2">frame</button>
+            <button class="button2">repair</button>
+            
         </div>
         <div class="child1">
-            <h3>Lelah Nichols</h3>
-            <p>Troy.MI</p>
-            <button >clothes</button>
-            <button>stem</button>
+            <img src="https://thumbs.dreamstime.com/b/indian-girl-put-her-hand-to-forehead-shield-eyes-sun-looks-away-goa-india-beach-179014442.jpg" alt="">
+            <h3>Amy Campbell</h3>
+            <p>Worrior,AL</p>
+            <button class="button2" >music</button>
+            <button class="button2">disk</button>
         </div>
         <div class="child1">
-            <h3>Lelah Nichols</h3>
-            <p>Troy.MI</p>
-            <button >clothes</button>
-            <button>stem</button>
+            <img src="https://th.bing.com/th/id/OIP.pgDVKOaMCvOc2uP8yEm-MQHaHa?pid=ImgDet&w=800&h=800&rs=1" alt="">
+            <h3>Anthony S. Mourin</h3>
+            <p>lyndhurst,NJ</p>
+            <button class="button2" >vintage</button>
+            <button class="button2">electric</button>
         </div>
     </div>
    
+   </div>
 </body>
 </html>
