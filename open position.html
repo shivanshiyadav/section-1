@@ -4,52 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
     <style>
+        body{ margin: 20px;
+            background-color: rgba(138, 188, 208, 0.185);
+        }
 
         .grid{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-        margin: 40px 0px 30px 95px;
-        
+        /* margin: 40px 0px 30px 95px;
+        padding: 20px; */
+        margin: 0px;
+    margin-left: 90px;
+    padding: 20px;
         
         }
         .card{
-            border: 1px solid black;
+            border-radius: 10px;
+            background-color: white;
+            border: 1px solid rgba(139, 138, 138, 0.084);
             text-align: center;
-            margin:0px  10px 20px 0px;
+            margin:0px  10px 20px 20px;
             padding: 20px;
-            width: 300px;
+            width: 340px;
+            height: 150px;
+        }
+        button{
+          margin: 10px;
+          
+          margin-left: 50px;
+            border: 1px solid rgba(128, 128, 128, 0.644);
+            font-size: large;
+            padding: 10px;
+            width: 220px;
+        }
+        button:hover{
+            color: white;
+            background-color: rgba(63, 63, 66, 0.904);
         }
     </style>
 </head>
 <body>
-    <h2 style="text-align: center; font-size: xx-large;margin: 80px;">Open position</h2>
+    <h2 style="text-align: center; font-size: xx-large;margin-top: 100px;">Open position</h2>
     <div class="grid">
         <div class="card">
-            <h2>design</h2>
+            
+             <h2><i class="fa-solid fa-paintbrush" style="background-image: linear-gradient(90deg, rgba(133, 133, 237, 0.685),rgba(255, 192, 203, 0.749), );  padding: 8px;"></i> design</h2>
             <button> 4 open position</button>
         </div>
         <div class="card">
-            <h2>design</h2>
-            <button> 4 open position</button>
+            <h2><i class="fa-solid fa-code" style="background-image: linear-gradient(45deg,pink,yello);"></i> Enginineering</h2>
+            <button>8 open position</button>
         </div>
         <div class="card">
-            <h2>design</h2>
-            <button> 4 open position</button>
+            <h2><i class="fa-solid fa-gear"></i> Operation</h2>
+            <button> 2 open position</button>
         </div>
         <div class="card">
-            <h2>design</h2>
-            <button> 4 open position</button>
+            <h2> <i class="fa-solid fa-user-group"></i> People</h2>
+            <button>6 open position</button>
         </div>
         <div class="card">
-            <h2>design</h2>
-            <button> 4 open position</button>
+            <h2> <i class="fa-solid fa-clipboard-list"></i> Sale</h2>
+            <button> 7 open position</button>
         </div>
         <div class="card">
-            <h2>design</h2>
-            <button> 4 open position</button>
+            <h2><i class="fa-solid fa-graduation-cap"></i> University</h2>
+            <button>8 open position</button>
         </div>
     </div>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In laboriosam culpa, exercitationem dolor tempora amet totam recusandae magnam harum, pariatur atque. Cupiditate quisquam, saepe velit dignissimos consectetur rerum ratione consequatur, facere, quod expedita possimus. Sed blanditiis accusamus est neque rerum placeat ipsam, architecto ut voluptates aspernatur possimus, ex culpa error reprehenderit enim aliquid nostrum dolorem quos at praesentium animi. Animi!</p>
+    <p style="text-align: center; padding-left: 19px; padding-right: 19px;">Lorem ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error adipisci, modi sequi cumque laudantium deserunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio! , dolor sit amet consectetur adipisicing elit. Asperiores, ullam velit quas tempore quasi similique dolorum ex ipsum doloribus pariatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, nobis.quos at praesentium animi. Animi!</p>
 </body>
 </html>
