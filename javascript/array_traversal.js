@@ -6,7 +6,27 @@ for( let n of nums){
 };
 console.log('---------------------');
 nums .forEach( ( n) => { if (n%2  !==0) console.log(n);});
+
 //anew array that contains the square of all elements
 
  const newArr = nums.map((n) => {return n**2} );
  console.log(newArr);
+
+ //filter 
+  const evens = nums .filter ((a) => {return  a%2 ===0})
+  console.log(evens);
+  const price = [ 2300 , 150 , 1300, 800, 300, 600, 750]
+  //price should be less than 1000 and greater than 500
+  for( let n of nums){
+    if(n%2 ===0){
+    console.log(n);
+    }
+}; 
+const newPrice = price .filter((p) => {return p>500 && p<1000});
+console.log('p>500 && p<1000'.includes ('700'))
+console.log(newPrice);
+
+const mail = ['mmmyahoo.com','abcgamil.com','xyzgmail.com,' ]
+// console.log('triplegmail.com'.includes('m'))
+
+  
