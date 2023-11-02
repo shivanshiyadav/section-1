@@ -39,7 +39,7 @@ switch(expr){
     case 'oranges':
         console.log("oranges 5 $")
         break;
-    case 'papaya':
+    case 'papayas':
         case 'mangoes':
         console.log("papaya 5 $,mangoes $8"  )
         break;
