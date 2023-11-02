@@ -17,32 +17,32 @@
 // else{
 //   console.log("number is not divisible by 2and 3");
 // }
-//problem
-//  let age =12;
-// // console.log("what is your age");
-// // age = Number.parseInt(age)
-// switch (age){
-//     case ('12'):
-//         console.log("ur age is 12");
-//         break;
-//     case ('13'):
-//         console.log("ur age is 13");
-//         break;
-//     case ('14'):
-//         console.log("ur age is 14");
-//         break;
-//         default:
-//             console.log("ur not special ");
-// }/
-const expr = 'papayas';
-switch(expr){
-    case 'oranges':
-        console.log("oranges 5 $")
+
+ const age ='15';
+// console.log("what is your age");
+// age = Number.parseInt(age)
+switch (age){
+    case ('12'):
+        console.log("ur age is 12");
         break;
-    case 'papayas':
-        case 'mangoes':
-        console.log("papaya 5 $,mangoes $8"  )
+    case ('13'):
+        console.log("ur age is 13");
+        break;
+    case ('14'):
+        console.log("ur age is 14");
         break;
         default:
-        console.log("out of stock")
-    }
+            console.log("ur not special ");
+}
+// const expr = 'papayas';
+// switch(expr){
+//     case 'oranges':
+//         console.log("oranges 5 $")
+//         break;
+//     case 'papayas':
+//         case 'oranges':
+//         console.log("papaya 5 $,oranges $8"  )
+//         break;
+//         default:
+//         console.log("out of stock")
+//     }
