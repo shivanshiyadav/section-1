@@ -49,3 +49,10 @@ switch(expr){
         default:
         console.log("out of stock")
     }
+    console.log("------------------------------");
+    //problem 5
+    //ternary operation to check true or false 
+    let ages = 19
+    let a = ages>18?"you are elegible":"you are not elegible"
+console.log(a);
+
