@@ -432,6 +432,35 @@ grid-template-columns: 1fr 1fr 1fr 1fr ;
 .overlap{
     margin-top: -15px;
 }
+.back-font{
+            color: #e0e0e0;
+            font-size: 50px;
+        }
+
+        .overlap{
+            margin-top: -35px;
+        }
+
+        .overlay{
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            transform: translateY(20px);
+            opacity: 0;
+            transition-duration: 400ms;
+            box-sizing: border-box;
+            width: calc(100% - 20px);
+        }
+
+        .toggle{
+            overflow: hidden;
+        }
+
+        .toggle:hover .overlay{
+            transform: none;
+            opacity: 0.8;
+        }
+
  </style>
 </head>
 <body>
@@ -555,38 +584,49 @@ grid-template-columns: 1fr 1fr 1fr 1fr ;
         </div>
         
         </div>
+       
         <section>
- <div class="container">
-    <h1 class="text-center fw-bold back-font">PORTFOLIO</h1>
-    <h1 class="text-center fw-bold ovelap">PORTFOLIO</h1>
-    <p class="text-center mt-5 fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquam reiciendis fugiat autem eligendi amet vero porro eius ex hic.</p>
- <div class="row mt-5">
-    <div class=" col-md-4">
-        <div><img class="img-fluid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-1.jpg" alt=""></div>
-        
-    </div>
-    <div class="mt-3">
-        <img  class="img-fluid"  src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-6.jpg" alt="">
-
-    </div>
-    <div class="col-md-4">
-        <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-2.jpg" alt="">
-    </div>
-    <div class="mt-3">
-        <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-3.jpg" alt="">
-    </div>
-    <div class="col-md-4">
-        <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-5.jpg" alt="">
-    </div>
-    <div class="mt-3">
-        <img src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-4.jpg" alt="">
-    </div>
- </div>
-</div>
-
-
-
+            <div class="container py-5">
+                <h1 class="text-center fw-bold back-font">PORTFOLIO</h1>
+                <h3 class="text-center fw-bold overlap">PORTFOLIO</h3>
+                <p class="text-center mt-5 fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem voluptates accusantium sunt tenetur. Numquam, laudantium.</p>
+    
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <div style="position: relative;" class="toggle">
+                            <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-1.jpg" alt="">
+                            <div class="card p-3 overlay">
+                                <h3>Water Bottle</h3>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-6.jpg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <div>
+                            <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-2.jpg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-5.jpg" alt="">
+                        </div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <div>
+                            <img class="img-fluid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-3.jpg" alt="">
+                        </div>
+                        <div class="mt-3">
+                            <img class="img-f   luid" src="https://bootstrapmade.com/demo/templates/eNno/assets/img/portfolio/portfolio-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
         </section>
+
+
         <div class="ter">
     <h1  style="text-align: center; color: #3e4450; font-size:240%; font-weight: bold; margin-top: 130px; text-shadow:  12px 1px 3px  #3e445070; ">Terminal</h1>
     <p style="text-align: center; color: #3e4450;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis tenetur quae commodi dolor error, incidunt deserunt omnis architecto reiciendis praesentium. Molestias nulla consectetur reiciendis nesciunt debitis dicta placeat vel dolore unde nobis quod ullam ad dolorum similique labore, voluptas odit nihil tempore distinctio molestiae assumenda tenetur repellat non! Sit.</p>
@@ -678,5 +718,18 @@ grid-template-columns: 1fr 1fr 1fr 1fr ;
 <h1 style="text-align: center; margin: 20px;"><i class="fa-solid fa-phone" style="color: #198754; font-size: xx-large;text-align: center;"></i>  Call:</h1>
 <p style="text-align:center; margin: 20px;">+1 5589 55488 55s</p>
 </div>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.7897665876217!2d80.94156877629422!3d26.846638262925513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd07c3c15643%3A0x867bb0de72c4c460!2sDigipodium%20%7C%20Training%20%26%20Internship%20for%20BTech%2C%20BCA%2C%20MCA%2C%20MBA%2C%20MBA%20%7C%20Event%20Management!5e0!3m2!1sen!2sin!4v1699171353260!5m2!1sen!2sin" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
