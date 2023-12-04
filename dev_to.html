@@ -29,6 +29,20 @@
       border-radius: 15px;
 
     }
+    .side_bar{
+      display: grid;
+      grid-template-columns:1 fr 4fr 2fr ;
+    }
+    /* .bar{
+      text-decoration: none;
+    list-style-type: none;
+    gap: 20px;
+    } */
+    ul{
+      padding: 20px;
+      text-decoration: none;
+    }
+
   </style>
 </head>
 <body>
@@ -51,27 +65,34 @@
     </nav>
   </div>
   <div class="side_nav">
+    <div class="bar">
     <nav>
       <ul>
-        <a href="#">Home</a>
-        <a href="#"> Reading List</a>
-        <a href="#"> Podcast</a>
-        <a href="#"> Videos</a>
-        <a href="#"> Tags</a>
-        <a href="#"> FAQ</a>
-        <a href="#">Forem Shop</a>
-        <a href="#">Advertise on DEV</a>
-        <a href="#">About</a>
-        <a href="#"> Contact</a>
-        <a href="#">Guides</a>
-        <a href="#">Softare comparision</a>
+
+        <li> <a href="#">Home</a></li>
+        <li><a href="#"> Reading List</a>
+        <li></li><a href="#"> Podcast</a>
+        <li></li><a href="#"> Videos</a>
+        <li></li><a href="#"> Tags</a>
+        <li><a href="#"> FAQ</a></li>
+        <li><a href="#">Forem Shop</a></li>
+        <li><a href="#">Advertise on DEV</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#"> Contact</a></li>
+        <li><a href="#">Guides</a></li>
+        <li><a href="#">Softare comparision</a></li>
         <h5>Other</h5>
-        <a href="#">Code of Conduct</a>
-        <a href="#"> Privacy Policy</a>
-        <a href="#"> Terms of use</a>
+        <li><a href="#">Code of Conduct</a></li>
+        <li><a href="#"> Privacy Policy</a></li>
+        <li><a href="#"> Terms of use</a></li>
         
       </ul>
     </nav>
+  </div>
+  <div class="mid">
+    <button>relevent</button>
+    <img src="about.png" alt="">
+  </div>
   </div>
 </body>
 </html>
